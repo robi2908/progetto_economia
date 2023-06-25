@@ -1,10 +1,22 @@
 \documentclass[12pt, a4paper]{article}
 
+% utilizzato per inserire foto
 \usepackage[]{graphicx}
+
+% Utilizzato per convertire alcuni testi di default in italiano
+\usepackage[italian]{babel}
+% permette agli hypertext di essere cliccabili
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=magenta
+}
 
 % FONT
 \usepackage{newtxtext}
-
 \usepackage[margin=3cm]{geometry}
 
 % interlinea
@@ -12,8 +24,16 @@
 \renewcommand{\baselinestretch}{1.5} 
 
 \newcommand{\meskip}{\medskip \\}
+\newcommand{\bskip}{\bigskip \\}
 
 \usepackage{enumitem}
+
+% ############ JUSTIFY ############
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+% #################################
 
 \title{
     \includegraphics[width=.8\textwidth]{images/LOGO.png}\\
@@ -89,9 +109,9 @@ Per avere una visione completa del consumo di vino nel paese, si può fare rifer
 \end{center}
 \noindent Dall'analisi del grafico sottostante emerge chiaramente un notevole aumento del consumo di vino da parte dei giovani. Questa tendenza rappresenta un'opportunità significativa per il settore vinicolo, in quanto indica un cambiamento nelle preferenze e nei comportamenti dei consumatori più giovani.\meskip
 L'aumento del consumo di vino tra i giovani suggerisce un crescente interesse per la cultura enologica, la scoperta di nuovi sapori e l'esperienza di bevande di alta qualità. Tale tendenza potrebbe essere attribuita a una maggiore consapevolezza dei giovani sui benefici del vino, come le proprietà antiossidanti e la sua associazione con uno stile di vita sofisticato.\meskip
-È quindi essenziale adattarsi a questa tendenza, offrendo una selezione di vini adatta ai gusti e alle preferenze dei giovani, utilizzando strategie di marketing mirate e coinvolgenti per catturare l'attenzione di questo segmento di mercato in crescita.
+È quindi essenziale adattarsi a questa tendenza, offrendo una selezione di vini adatta ai gusti e alle preferenze dei giovani, utilizzando strategie di marketing mirate e coinvolgenti per catturare l'attenzione di questo segmento di mercato in crescita.\smallskip
 \begin{center}
-    \includegraphics[width=\textwidth]{images/consumo_vino_eta.png}
+    \includegraphics[width=.85\textwidth]{images/consumo_vino_eta.png}
 \end{center}
 La fascia di consumatori compresa tra i 30 e i 45 anni manifesta un forte interesse per tutti gli aspetti della sostenibilità, inclusi quelli ambientali, economici e sociali. Questi consumatori attribuiscono grande importanza alla provenienza etica dei vini, alle pratiche agricole sostenibili e alla responsabilità sociale delle aziende vinicole. La sostenibilità diventa quindi un fattore decisivo nella scelta dei vini per questa fascia di età.\meskip
 D'altra parte, i giovani compresi tra i 18 e i 25 anni mostrano una particolare attrazione verso i vini di prestigio e riconosciuti a livello di brand. Tuttavia, sono anche alla ricerca di nuove esperienze e sono fortemente influenzati dagli eventi e dalle fiere del settore. Questa fascia di consumatori è attiva sui social media, dove seguono influencer del settore vinicolo e cercano informazioni su nuovi vini. È interessante notare che i giovani consumatori, se colpiti positivamente da un vino, tendono a voler approfondire l'esperienza, visitando direttamente le cantine.\meskip
@@ -125,10 +145,68 @@ Inoltre l'Italia è nota per la sua cultura enogastronomica, e Vinovo può sfrut
 In Italia, l'innovazione tecnologica nel settore dell'e-commerce, come miglioramenti nella sicurezza dei pagamenti online, nell'esperienza di acquisto e nella logistica di consegna, influiscono sulla facilità con cui i consumatori possono acquistare vino online.
 L'adozione di strumenti digitali e soluzioni tecnologiche nel settore vinicolo può influenzare la competitività della nostra proposta. Ad esempio, l'utilizzo di strumenti di analisi dei dati per comprendere meglio i comportamenti dei clienti e offrire raccomandazioni personalizzate può contribuire al successo di Vinovo.\bigskip
 \begin{center}
-    \includegraphics[width=.9\textwidth]{images/pic-pest-analysis.png}
+    \includegraphics[width=.6\textwidth]{images/pest-analisys.png}
 \end{center}
+
+\subsection{Analisi dell'offerta}
+In Italia, il mercato del vino è caratterizzato da numerosi produttori privati e piccole enoteche che tradizionalmente vendono i loro prodotti esclusivamente attraverso negozi fisici. Tuttavia, per queste realtà, avviare un proprio e-commerce rappresenta una sfida economica non sostenibile. Di conseguenza, spesso si affidano a piattaforme online già esistenti per raggiungere una clientela più ampia e sfruttare le opportunità offerte dal commercio digitale.
+
+\subsubsection{Analisi dei concorrenti}
+Per determinare la quota di mercato che possiamo ottenere, è fondamentale tenere presente che questo segmento di mercato è dominato da aziende consolidate, che vantano un notevole potere di contrattazione sia nei confronti dei clienti che dei fornitori. Nonostante queste sfide, siamo pronti ad affrontare la competizione con innovazione e determinazione. Siamo pronti a sfidare i giganti e a conquistare il nostro spazio nel mercato.\meskip
+Sono stati individuati cinque principali concorrenti: Callmewine, Vine.com, Tannico, Xtrawine e Bernabei. Successivamente verranno fornite brevi descrizioni e confronti tra di loro, nonché anche con la nostra startup.\meskip
+L'obiettivo è quello di sviluppare una strategia che soddisfi le esigenze dei clienti e offra servizi unici non ancora forniti dai nostri principali concorrenti. Inoltre, l'analisi della concorrenza sarà un processo continuo per rimanere sempre aggiornati e in grado di adattarci al mercato in evoluzione.\meskip
+La tabella qui di seguito riassume i principali elementi che distinguono Vinovo dai concorrenti sopra citati:\meskip
+\includegraphics[width=\textwidth]{images/tabella_competitors.png}
+
+\begin{itemize}
+    \item \textbf{Callmewine}, è una piattaforma di e-commerce specializzata nella vendita di vini che si colloca tra i leader di mercato in Italia. Possiede un ampio catalogo con circa 11.000 etichette disponibili, che spaziano dai grandi nomi del panorama enologico mondiale ai piccoli produttori, dai distillati di brand più noti a quelli più di nicchia. Possiede quindi una selezione vasta ed eterogenea riuscendo però a guidare l'utente in una scelta consapevole senza disorientarlo, proprio come un vero "sommelier personale".
+    \item \textbf{Vino.com} ha lanciato una piattaforma proprietaria multi-brand e multi-channel che ha modernizzato i processi di distribuzione di vino. Oggi \textit{Vino.com} presenta un catalogo di oltre 1.000 cantine e più di 6.000 etichette nazionali e internazionali e il suo fatturato 2020 ha raggiunto i 30 milioni di euro.
+    \item \textbf{Tannico} è una delle più ampie enoteche online per offerta di vini italiani nel mondo, con più di 15.000 etichette. Le bottiglie, conservate nel magazzino di Milano, vengono spedite fino a 20 paesi in Europa, e non solo, e provengono da 2.500 cantine attentamente selezionate. Tecnologia, coraggio, innovazione, passione e visione, questi sono i valori con cui l'azienda descrive se stessa e su cui basa il proprio business, con la mission di "raccontare il vino con un linguaggio nuovo".
+    \item \textbf{Xtrawine} è un'azienda nata dalla collaborazione di un gruppo di amici sommelier e informatici. Ormai consolidata sul mercato, lo testimoniano le oltre 10.000 referenze e una sede a Hong-kong che proietta le cantine sul mercato cinese; il tutto direttamente dalla piccola città di Forlì.
+    \item \textbf{Bernabei} è un enoteca fisica e digitale; conta 5 enoteche fisiche, 5 wine corner e un ottimo e-commerce dove poter comprare oltre al vino, birre, spirits e bibite. Merita particolare attenzione la sezione Caveau con vini rari al suo interno e anche la parte di esperienze: una sezione che ti permette, acquistando il vino di determinate cantine, di poter andare a fare la visita con degustazione gratuitamente in loco.
+\end{itemize}
+Per concludere l'analisi, è essenziale sottolineare l'importanza dell'attività di differenziazione per mantenere una posizione competitiva nel mercato. Innanzitutto, offrire una spedizione rapida risulta fondamentale non solo per attrarre i clienti più esigenti, ma anche per garantire affidabilità ai ristoranti e locali che collaborano con noi.\meskip
+Inoltre, uno dei nostri principali punti di forza è l'esclusività dei nostri vini. Essi vengono prodotti con cura e attenzione dopo un'accurata selezione della materia prima, oltre all'utilizzo di strumentazione all'avanguardia. Questo ci consente di offrire prodotti unici sul mercato, che soddisfano le aspettative dei nostri clienti più esigenti.\meskip
+Infine, guardando al futuro, abbiamo l'obiettivo di diversificare le aree geografiche in cui produciamo i nostri vini, al fine di ridurre l'impatto ambientale dei trasporti. Questa strategia ci permetterà di sfruttare le risorse locali e di creare una catena di approvvigionamento più sostenibile, riducendo le distanze di trasporto e promuovendo un'impronta ecologica più ridotta.\bskip
+In sintesi, attraverso l'offerta di spedizioni rapide, l'esclusività dei nostri vini e l'attenzione all'impatto ambientale, miriamo a distinguerci nel mercato e a garantire il successo a lungo termine della nostra attività.
+
+\section{Business Model}
+In questo capitolo viene presentato il Modello di Business di Vinovo, illustrando la logica fondamentale che ha portato alla creazione del progetto imprenditoriale e la strategia da implementare attraverso strutture organizzative, processi e sistemi, al fine di ottenere un vantaggio competitivo che consenta all'azienda di generare, distribuire e valorizzare i propri prodotti o servizi.
+
+\subsection{Business Model Canvas}
+\includegraphics[width=\textwidth]{images/business_model_canvas.png}
+
+\subsubsection{Key Partners}
+
+
+\subsubsection{Key Activities}
+
+
+\subsubsection{Key Resources}
+
+
+\subsubsection{Value Proposition}
+
+
+\subsubsection{Customer Relationship}
+
+
+\subsubsection{Channel}
+
+
+\subsubsection{Customer Segments}
+
+
+\subsubsection{Cost Structure}
+
+
+\subsubsection{Revenue Streams}
+
+
+
 
 \end{document}
 
 
 
+Per stabilire la quota di mercato che è possibile attaccare è importante considerare che Vinovo è una startup che vuole entrare in un segmento di mercato dominato anche da aziende forti sia dal punto di vista del potere contrattuale verso clienti e fornitori sia dal punto di vista della capacità finanziaria.
